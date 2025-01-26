@@ -1,0 +1,21 @@
+{
+  "name": "bpd-vs-dark-theme",
+  "displayName": "bpd-vs-dark-theme",
+  "description": "Dark theme for vs code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bpd Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bpd Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
